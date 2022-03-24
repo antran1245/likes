@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+/* Center */
+#container, header{
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+/* Cards for the like button */
+.card {
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.card .info, .like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filler {
+    margin-top: 10px;
+}
+.like-btn {
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 4px 8px 4px 8px;
+    margin-left: 20px;
+}
+/* header */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+/* container */
+#container h1 {
+    text-align: center;
+}
+#content {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+    margin: 0 0 0 10px;
+}
+/* user card */
+#user-card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+#user-icon {
+    width: 50%;
+}
